@@ -1,4 +1,4 @@
-function print (a){
+var a=function print (a){
     console.log(a)
 }
 
