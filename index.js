@@ -1,5 +1,11 @@
-var a=function print (a){
-    console.log(a)
-}
+var dog = {
+    name: "buddy",
+    breed: "Golden Retriver",
+    weight: 60,
+    bark: function(){
+        console.log("wooof!");
+    }
+};
 
-print("iam an argument !")
+dog.bark();
+console.log(dog.weight);
