@@ -1,1 +1,5 @@
-document.getElementById("example").innerHTML="my rules";
+function print (a){
+    console.log(a)
+}
+
+print("iam an argument !")
